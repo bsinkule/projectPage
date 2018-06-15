@@ -12,7 +12,6 @@ html {
 main {
     max-width: 1000px;
     margin: 0 auto;
-    border: 2px dotted red;
 }
 
 .navContent {
@@ -41,11 +40,22 @@ main {
 }
 
 .pNav, .bod, .thumbnail {
-    background-color: rgb(245, 238, 230)
+    background-color: rgb(248, 252, 245)
 }
 
 .galv {
     width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    height: 330px;
+}
+
+.wd {
+    max-width: 700px;
 }
 
 

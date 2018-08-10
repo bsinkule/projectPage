@@ -9,7 +9,17 @@ html {
    
 }
 
+/* .fully {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    opacity: .5;
+} */
 main {
+    /* have you used em for sizing? Responsive text sizing */
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -54,6 +64,7 @@ main {
     height: 330px;
 }
 
+/* this may be unused */
 .wd {
     max-width: 700px;
 }
